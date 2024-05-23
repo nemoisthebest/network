@@ -1,0 +1,10 @@
+cd /etc/netplan
+
+ll
+
+sudo vi 01-netcfg.yaml
+
+![image](https://github.com/nemoisthebest/network/assets/167675622/8b5c15a6-d245-43a2-805b-e546b5f000e1)
+
+sudo netplan apply
+
