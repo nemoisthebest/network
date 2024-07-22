@@ -50,4 +50,20 @@
 
 ישנם 4 שלבים בחלוקת הכתובות:
 
-1. השלב הראשון- DHCP 
+1. השלב הראשון- DHCP discovery
+
+הלקוח שולח חבילת DHCP discovery בהודעת broadcast לכלל המחשבים ברשת ה-LAN על מנת לאתר שרת DHCP.
+
+2. השלב השני- DHCP offer
+
+אם קיימים שרתי DHCP בארגון, כל אחד מהם ישלח ב-Unicast חבילת DHCP offer ללקוח עם כתובת IP (כתובת זו תקפה לשעה לצורך אימות).
+
+3. השלב השלישי- DHCP request
+
+הלקוח שולח הודעת broadcast עם ההגדרות שבחר.
+
+4. השלב הרביעי- DHCP acknowledge
+
+השרת מגיב ללקוח ה-unicast על אישור הבקשה.
+
+![image](https://github.com/user-attachments/assets/8389af7b-71cd-484c-9c92-4700699ba23a)
