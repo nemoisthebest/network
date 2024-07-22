@@ -1,5 +1,4 @@
-<div dir="rtl">
-מהו ethernet?  
+# מהו ethernet?  
  
 ![image](https://github.com/nemoisthebest/network/assets/167675622/4eb07f18-a75d-4888-82ae-ae1122dd25cf)
 
@@ -31,4 +30,3 @@
 
 
 
- </div>
