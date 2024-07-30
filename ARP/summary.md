@@ -26,7 +26,11 @@
 
 ישנם שלושה מקרים עיקריים בהם נשתמש ב-ARP Gratuitous: עדכון התאמות ARP, הכרזה על קיומו של קשר ועודף כתובות.
 
-![gratuitous-arp-shared-ip](https://github.com/user-attachments/assets/c94a8c52-668e-4d28-aaaa-fb3097b04563)
+<div align="center">
+  
+  ![gratuitous-arp-shared-ip](https://github.com/user-attachments/assets/c94a8c52-668e-4d28-aaaa-fb3097b04563)
+
+</div>
 
 ראוטר A וראוטר B חולקים את כתובת ה-(10.0.0.1)IP ואת כתובת ה-(MAC  (0053.ffff.1111. ה-HOST'S מוגדרים עם שער יציאה ברירת מחדל של 10.0.0.1, ולכל אחד מהם יש שורת ARP המציינת את כתובת ה-IP 10.0.0.1 המותאמת לכתובת MAC 0053.ffff.1111 בטבלת ה-ARP. מכיוון שגם כתובת ה-MAC וגם כתובת ה-IP משותפות בין שני הנתבים, התאמת ARP זו לעולם לא תצטרך להתעדכן.
 
