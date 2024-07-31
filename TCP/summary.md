@@ -27,5 +27,8 @@
 נתונים אופציונליים mTCPי (mTCP optional data) - אלו הם שדות אופציונליים להגדרת גדלי מקטעים מקסימליים, אישורים סלקטיביים והפעלת קנה מידה חלונות לשימוש יעיל יותר ברשתות ברוחב פס גבוה. 0-320 ביטים בקבוצות של 32 ביטים.
 
 *להתעלם מה-י, היא שם כי המילים באנגלית קופצות לסוף הסוגריים ואני לא מעוניינת בכך!! 😅🙄🤫
+ <div align="center">
+   
+   ![image](https://github.com/user-attachments/assets/f2580e0f-8660-4a6f-8acb-385c5193a7ba)
 
-![image](https://github.com/user-attachments/assets/f2580e0f-8660-4a6f-8acb-385c5193a7ba)
+</div>
