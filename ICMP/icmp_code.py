@@ -16,7 +16,7 @@ gateway=sys.argv[2]
 route_to_add=sys.argv[3]
 route_gw_to_add=sys.argv[4]
 
-print("Crafting Malicious Packet to update the Routing table")
+print("Recived all values")
 # creating a spoofed  IP packet to seem to origionate from Default GW of host. יצירת פקטה עם הנתיב המקורי
 ip= IP()
 ip.dst=target				# Address where update the routing table
